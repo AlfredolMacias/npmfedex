@@ -80,7 +80,6 @@ const builder = ( quote_params ) => {
 
 const respJson = (body) => {
     xml2js.parseString(body, function (err, results) {
-        console.log("LLEGÖ HASTA ACÄ")
         // parsing to json
         let data = JSON.stringify(results)
           
