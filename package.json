@@ -1,0 +1,14 @@
+{
+  "name": "npmfedex",
+  "version": "1.0.0",
+  "description": "API para consultar los precios de los envios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfredo Loeza Macias",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
